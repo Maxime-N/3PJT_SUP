@@ -1,0 +1,227 @@
+/* ====== GENERAL APPEARANCE ======= */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #464646;
+	margin: 0 0 40px;
+	font-family: "Arial Black";
+	font-size: 1.5em;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.navbar-nav {
+	margin-left: 20px;
+}
+
+p {
+	color: white;
+}
+
+.logo {
+	float: left;
+	background: url('../img/logoGabbler.png') no-repeat;
+	margin-top: 2px;
+	height: 45px;
+	width: 98px;
+	margin-left: 10px;
+}
+
+.row {
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 60px;
+}
+
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	height: 40px;
+	background-color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.navbar {
+	border: none;
+}
+
+/* ====== GENERAL APPEARANCE ======= */
+
+
+
+/* ====== WELCOME PAGE ======= */
+
+#welcome {
+	margin-top: 6%;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+#welcome h3 {
+	text-align: center;
+}
+
+#registerForm {
+	margin-top: 6%;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#registerForm h3 {
+	text-align: center;
+}
+
+#registerForm button {
+	margin: 0 auto;
+	display: block;
+}
+
+legend {
+	border-bottom: 0;
+}
+
+
+
+/* ====== PAGE COMPTE ======= */
+
+.avatar {
+	float: left;
+	margin: 20px;
+	left: 20px;
+	width: 150px;
+	height: 200px;
+	text-align: center;
+}
+
+.titreContact {
+	position : relative;
+	margin-top: 260px;
+	/*margin-left: 10%;*/
+	width: 250px;
+	height: 50px; 
+}
+
+.zoneContact {
+	position : relative;
+	margin-top: 10px;
+	left: 10%;
+	width: 80%; 
+	min-height: 5px;
+}
+
+.contact {
+	float: left;
+	margin-bottom:10px;
+	margin-right:10px;
+	width: 152px;
+	min-height: 225px;
+	border:1px #808080 solid;
+	background-color:#F5F5F5;	
+}
+
+.basContact {
+	float:left;
+	width: 150px;
+}
+
+.nomContact {
+	float:left;
+	width: 100px;
+	text-align: center;
+}
+
+.boutonContact {
+	float: right;
+}
+
+.date {
+	width: 100%;
+}
+
+/* ====== PAGE HOME COMPTE ======= */
+
+.elementsMessage {
+	margin-top: 50px;
+}
+
+.zoneMessageUser {
+	position: relative;
+	margin-top: 20px;
+	left: 10%;
+	width: 80%;
+	min-height: 5px;
+	min-width: 300px; 	
+}
+
+.message {
+	float: left;
+	margin-bottom:10px;
+	width: 100%;
+	min-height: 50px;
+	border:1px #808080 solid;
+	padding: 10px;
+	background-color:#F5DEB3;
+}
+
+/* ====== PAGE MESSAGE CONTACT ======= */
+
+.avatarContact {
+	float: left;
+	left: 20px;
+	width: 150px;
+	height: 200%;
+}
+
+.avatarContact2 {
+	float: left;
+	left: 20px;
+	width: 75px;
+	height: 100px;
+	border:1px #808080 solid;
+}
+
+.messageContact {
+	position: relative;
+	margin-left: 160px;
+	min-height: 100%;
+}
+
+.messageContact2 {
+	position: relative;
+	margin-left: 85px;
+	min-height: 100%;
+}
+
+.bouton {
+	float: right;
+	right: 10px;
+
+}
+
+.reponse {
+	float: left;
+	width: 100%;
+	min-height: 50px;
+	border:1px #808080 solid;
+	padding: 10px;
+	margin-bottom:1px;
+	background-color:#F5F5DC;
+}
+
+.avis {
+	float: left;
+	width: 100%;
+	height: 20px;
+	padding: 0px;
+}
+
